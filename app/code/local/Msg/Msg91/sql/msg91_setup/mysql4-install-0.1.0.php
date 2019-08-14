@@ -6,8 +6,8 @@ $installer->startSetup();
  
 $installer->run("
  
--- DROP TABLE IF EXISTS {$this->getTable('msg_msg91_log')};
-CREATE TABLE {$this->getTable('msg_msg91_log')} (
+-- DROP TABLE IF EXISTS {$this->getTable('msg91/log')};
+CREATE TABLE {$this->getTable('msg91/log')}(
   `id` int(11) unsigned NOT NULL auto_increment,
   `sent_date` timestamp default '0000-00-00 00:00:00',
   `order_no` int(11) NOT NULL default '0',
@@ -25,3 +25,4 @@ CREATE TABLE {$this->getTable('msg_msg91_log')} (
 ");
  
 $installer->endSetup();
+?>

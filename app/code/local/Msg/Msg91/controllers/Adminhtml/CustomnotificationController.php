@@ -66,6 +66,7 @@
 	       $params = array(
 			    'email'=>$customer->getEmail(),
 			    'firstname'=>$cust1->getFirstname(),
+			    'lastname'=>$cust1->getLastname(),
                             'phone' => $to_num,
 			    'schtime'=>$data['scheduled_at'],
 			    'route'=>$data['route'],

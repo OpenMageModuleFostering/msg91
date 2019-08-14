@@ -20,3 +20,4 @@ $this->run("
 ");
 
 $this->endSetup();
+?>

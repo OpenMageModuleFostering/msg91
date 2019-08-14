@@ -32,7 +32,7 @@ class  Msg_Msg91_Block_Adminhtml_Customnotification_Edit_Tab_Form extends Mage_A
           'image'     =>    $this->getSkinUrl('images/grid-cal.gif'),
 	  ));
 	 $afterElementHtml = '<p class="nm"><small>' .'Availabe Vars {{firstname}},{{email}}'. '</small></p>';
-	 $fieldset->addField('content', 'text', array(
+	 $fieldset->addField('content', 'textarea', array(
           'label'     => Mage::helper('msg91')->__('Message'),
           'name'      => 'content',
 	  'style'     => 'width:270px; height:50px;',

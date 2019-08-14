@@ -5,7 +5,7 @@ $installer = $this;
 $this->startSetup();
 
 $this->run("
- CREATE TABLE `{$this->getTable('msg91/customnotification')}` (
+ CREATE TABLE `{$installer->getTable('msg91/customnotification')}` (
   `rule_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT '',
   `is_active` tinyint(1) NOT NULL DEFAULT '1',

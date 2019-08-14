@@ -104,8 +104,8 @@
                     <fields>
 				<route_code translate="label comment">
 					<label>Select Route</label>
-					<comment>Custom Selection List</comment>
-					<frontend_type>select</frontend_type>					
+                                        <comment>You can select after save the authentication key </comment>
+                                        <frontend_type>select</frontend_type>					
 					<source_model>Msg_Msg91_Model_System_Config_Source_Routevalues</source_model>
 					<sort_order>10</sort_order>
 					<show_in_default>1</show_in_default>
@@ -189,7 +189,7 @@
                         </order_enabled>
                         <order_message translate="label">
                             <label>Place order message</label>
-                            <comment>Available variable: {{order_number}}</comment>
+                            <comment>Available variable: {{order_number}},{{firstname}}, {{lastname}}</comment>
                             <sort_order>25</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -208,7 +208,7 @@
                         </shipment_enabled>
                         <shipment_message translate="label">
                             <label>Place shipment message</label>
-                            <comment>Available variable: {{order_number}}</comment>
+                            <comment>Available variable: {{order_number}},{{firstname}},{{lastname}}</comment>
                             <sort_order>40</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -227,7 +227,7 @@
                         </invoice_enabled>
                         <invoice_message translate="label">
                             <label>Place invoice message</label>
-                            <comment>Available variable: {{order_number}}</comment>
+                            <comment>Available variable: {{order_number}},{{firstname}},{{lastname}}</comment>
                             <sort_order>60</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -246,7 +246,7 @@
                         </canceled_enabled>
                         <canceled_message translate="label">
                             <label>Canceled order message</label>
-                            <comment>Available variable: {{order_number}}</comment>
+                            <comment>Available variable: {{order_number}},{{firstname}},{{lastname}}</comment>
                             <sort_order>80</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -303,7 +303,7 @@
                         </accountedit_enabled>
                         <accountedit_message translate="label">
                             <label>Place edit account message</label>
-                            <comment>Available variable: {{firstname}},{{email}},{{current_password}},{{password}}</comment>
+                            <comment>Available variable: {{firstname}},{{lastname}},{{email}},{{current_password}},{{password}}</comment>
                             <sort_order>100</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -380,7 +380,7 @@
                         </tags_enabled>
                         <tags_message translate="label">
                             <label>Place tags message</label>
-                            <comment>Available variable: {{firstname}},{{producttagname}},{{productname}}</comment>
+                            <comment>Available variable: {{firstname}},{{lastname}},{{producttagname}},{{productname}}</comment>
                             <sort_order>140</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -390,7 +390,7 @@
                         </tags_message>
                            <approvetags_message translate="label">
                             <label>Place tags approve message</label>
-                            <comment>Available variable: {{firstname}},{{tagname}},{{status}}</comment>
+                            <comment>Available variable: {{firstname}},{{lastname}},{{tagname}},{{status}}</comment>
                             <sort_order>142</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -409,7 +409,7 @@
                         </coupon_enabled>
                         <coupon_message translate="label">
                             <label>Place coupon message</label>
-                            <comment>Available variable: {{coupon_code}},{{discount_amount}},{{to_date}}</comment>
+                            <comment>Available variable: {{coupon_code}},{{discount_amount}},{{to_date}},{{firstname}},{{lastname}}</comment>
                             <sort_order>150</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -428,7 +428,7 @@
                         </stockupdate_enabled>
                         <stockupdate_message translate="label">
                             <label>Place Stock Update message</label>
-                            <comment>Available variable: {{firstname}},{{qty}},{{productname}}</comment>
+                            <comment>Available variable: {{firstname}},{{qty}},{{productname}},{{firstname}},{{lastname}}</comment>
                             <sort_order>170</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
@@ -438,7 +438,7 @@
                         </stockupdate_message>
                         <outstockupdate_message translate="label">
                             <label>Place Out Stock Update message</label>
-                            <comment>Available variable: {{qty_change}},{{qty}},{{productname}}</comment>
+                            <comment>Available variable: {{qty_change}},{{qty}},{{productname}},{{firstname}},{{lastname}}</comment>
                             <sort_order>170</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
