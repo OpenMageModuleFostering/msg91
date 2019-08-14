@@ -18,9 +18,4 @@
             <block type="msg91/adminhtml_customnotification" name="customnotification" />
         </reference>
     </adminhtml_customnotification_index>
-    <adminhtml_testmessage_index>
-        <reference name="content">
-            <block type="core/template" name="test" template="msg91/testsms.phtml" />
-        </reference>
-    </adminhtml_testmessage_index>
 </layout>

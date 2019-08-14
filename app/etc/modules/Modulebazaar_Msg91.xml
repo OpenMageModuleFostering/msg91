@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Modulebazaar_Msg91>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Modulebazaar_Msg91>
+    </modules>
+</config>
