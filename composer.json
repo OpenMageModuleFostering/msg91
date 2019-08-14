@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Msg91",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Msg91 is an API for message sending to multiple customers",
+    "authors": [
+    {
+        "name": "Egrove",
+        "email": "itsupport@egrovesys.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
